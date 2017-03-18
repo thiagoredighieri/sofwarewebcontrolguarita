@@ -1,0 +1,13 @@
+<?php
+#### START AUTOCODE
+/**
+ * Classe generada para a tabela "{tablename}"
+ * in {date}
+ * @author {author}
+ * @link {link}
+ * @package {package}
+ *
+ */
+
+class {classname} extends Lumine_Base {
+

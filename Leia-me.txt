@@ -1,0 +1,10 @@
+Acesso admiistrador
+
+Login:admin
+Senha: 123
+
+
+Acesso vigilante
+
+Login:user
+Senha: 123

@@ -1,0 +1,107 @@
+* {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+}
+
+img {
+	border: 0px;
+}
+
+h1 {
+	font-size: 16px;
+	color: #666;
+}
+
+.inputbusca {
+	width: 60px;
+}
+
+.textinput, select, textarea, .containerElementos {
+	padding: 5px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #EFEFEF;
+	border-left-color: #EFEFEF;
+}
+
+textarea, .containerElementos {
+	width: 97%;
+	height: 100px;
+}
+
+.containerElementos {
+	overflow: auto;
+}
+
+.tableWhite {
+	background-color: #EFEFEF;
+}
+
+.tableWhite td {
+	padding: 6px;
+	background-color: #FFFFFF;
+}
+
+.tableWhite th {
+	padding: 6px;
+	text-align: left;
+	background-color: #EFEFEF;
+}
+
+/*************** styles for buttons ******************/
+.clear { /* generic container (i.e. div) for floating buttons */
+    overflow: hidden;
+    width: 100%;
+}
+
+a.button {
+    background: transparent url('bg_button_a.gif') no-repeat scroll top right;
+    color: #444;
+    display: block;
+    float: left;
+    font: normal 11px arial, sans-serif;
+    height: 24px;
+    margin-right: 6px;
+    padding-right: 18px; /* sliding doors padding */
+    text-decoration: none;
+}
+
+a.button span {
+    background: transparent url('bg_button_span.gif') no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 5px 0 5px 18px;
+} 
+
+a.button:active {
+    background-position: bottom right;
+    color: #000;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.button:active span {
+    background-position: bottom left;
+    padding: 6px 0 4px 18px; /* push text down 1px */
+} 
+.sucesso {
+	font-weight: bold;
+	color: #060;
+	background-color: #F9FFF2;
+	padding: 8px;
+	border: 2px solid #060;
+}
+h1 em {
+	font-style: normal;
+	font-size: 10px;
+	font-weight: normal;
+	display: block;
+	color: #999;
+}

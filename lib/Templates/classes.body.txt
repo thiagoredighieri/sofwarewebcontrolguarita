@@ -1,0 +1,45 @@
+    {members}
+    public ${name};
+    {/members}
+    
+    {accessors}
+    /**
+     * get {name}
+     *
+     */
+    public function get{accessor}() {
+    	return $this->{name};
+    }
+    
+    /**
+     * set {name}
+     * @param Type $value
+     *
+     */
+    public function set{accessor}($value) {
+    	$this->{name} = $value;
+    }
+    {/accessors}
+    
+    /**
+     * Inicia os valores da classe
+     * @author {author}
+     * @return void
+     */
+    protected function _initialize()
+    {
+        $this->metadata()->setTablename('{tablename}');
+        $this->metadata()->setPackage('{package}');
+        
+        # nome_do_membro, nome_da_coluna, tipo, comprimento, opcoes
+        {definition}
+        $this->metadata()->addField('{name}', '{column}', '{type}', {length}, {options});
+        {/definition}
+
+        {relations}
+        $this->metadata()->addRelation('{name}', Lumine_Metadata::{type}, '{class}', '{linkOn}', {table_join}, {column_join}, {lazy});
+        {/relations}
+    }
+
+    #### END AUTOCODE
+

@@ -1,0 +1,83 @@
+body,td,input,select,textarea {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+.MenuSuperior {
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+}
+
+.MenuSuperior li {
+	display: inline;
+	list-style-type: none;
+	margin-right: 10px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 0px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+	padding: 3px;
+}
+
+.ConteudoTab {
+	padding: 5px;
+	border: 1px solid #CCCCCC;
+	margin: 0px;
+}
+
+input[type=text] {
+	width: 300px;
+}#formReverse label {
+	display: block;
+	float: left;
+	width: 350px;
+	padding-top: 3px;
+	padding-bottom: 2px;
+	text-align: right;
+	padding-right: 4px;
+}
+#formReverse p {
+	margin: 0px;
+	clear: both;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 4px;
+	padding-left: 0px;
+}
+#tabs {
+	width: 850px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#dto_package_container span{
+	display: block;
+	margin-left: 355px;
+}
+#dto_package_container span:first{
+	display: block;
+	margin-left: 0px;
+}
+.table-item {
+	clear: both;
+}
+.table-item span{
+	display:block;
+	float: left;
+	width: 200px;
+}
+.table-item select{
+	display: block;
+	float: left;
+}
